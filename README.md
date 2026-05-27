@@ -92,3 +92,41 @@ Topics covered:
 - Neural Networks as Generalized Logistic Regression
 
 ![Vanilla Neural Network](./NeuralNetwork/neuralnetwork_boundary.gif)
+
+---
+---
+
+# ML with PyTorch
+
+In this section, we move from implementing neural networks manually with NumPy to using the powerful deep learning framework "pytorch". We build deeper neural networks with multiple hidden layers and explore how automatic differentiation simplifies gradient computation and optimization.
+
+We first begin with a simple regression problem by fitting a neural network to a sine wave function, demonstrating how neural networks can approximate continuous nonlinear functions.
+
+Next, we study the classic XOR problem and show how deep neural networks can construct nonlinear decision boundaries that are impossible for linear models such as logistic regression.
+
+Finally, we implement image classification using the MNIST handwritten digit dataset, introducing:
+- deep fully connected networks,
+- training loops,
+- batching,
+- optimizers,
+- and model evaluation.
+
+Topics covered:
+- PyTorch Tensors
+- Automatic Differentiation (Autograd)
+- Deep Neural Networks
+- Nonlinear Function Approximation
+- XOR Classification
+- MNIST Digit Classification
+- Training and Evaluation Pipelines
+- Optimizers and Loss Functions
+
+## XOR Decision Boundary
+
+![XOR Decision Boundary](./Examples_with_pytorch/xor_db.png)
+
+---
+
+## MNIST Classification
+
+![MNIST Classification](./Examples_with_pytorch/mnist2.png)
