@@ -21,6 +21,10 @@ The repository covers both classical machine learning algorithms and neural netw
 - PyTorch Models
 - Gradient Descent & Decision Boundary Visualizations
 
+
+- Expectation-Maximization (EM) Algorithm for Gaussian Mixture Models (GMM)
+
+
 ---
 
 # Linear Regression
@@ -130,3 +134,15 @@ Topics covered:
 ## MNIST Classification
 
 ![MNIST Classification](./Examples_with_pytorch/mnist2.png)
+
+
+## Expectation-Maximization (EM) Algorithm for Gaussian Mixture Models
+- Complete mathematical derivation
+- E-step and M-step implementation from scratch
+- Animated convergence of Gaussian components
+- Both 1D and 2D implementation
+
+![EM Algorithm for GMM](./EM_algorithm/1DEM.gif)
+
+![EM Algorithm for GMM](./EM_algorithm/2DEM.gif)
+
