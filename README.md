@@ -142,7 +142,7 @@ Topics covered:
 - Animated convergence of Gaussian components
 - Both 1D and 2D implementation
 
-![EM Algorithm for GMM](./EM_algorithm/1DEM.gif)
+![EM Algorithm for GMM](./EM_algorithm/1dEM.gif)
 
-![EM Algorithm for GMM](./EM_algorithm/2DEM.gif)
+![EM Algorithm for GMM](./EM_algorithm/2dEM.gif)
 
