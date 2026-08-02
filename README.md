@@ -20,7 +20,7 @@ The repository covers both classical machine learning algorithms and neural netw
 - Vanilla Neural Networks
 - PyTorch Models
 - Gradient Descent & Decision Boundary Visualizations
-
+- Principal Component Analysis (PCA)
 
 - Expectation-Maximization (EM) Algorithm for Gaussian Mixture Models (GMM)
 
@@ -146,3 +146,7 @@ Topics covered:
 
 ![EM Algorithm for GMM](./EM_algorithm/2dEM.gif)
 
+
+## Generative AI
+
+We begin by introducing **Principal Component Analysis (PCA)** and show how dimensionality reduction can be achieved while preserving as much variance as possible. We derive the principal components mathematically and then estimate them using `scikit-learn`. The handwritten **MNIST** dataset is used as an example to visualize the learned components. Finally, we reconstruct the original digits using only a small number of the leading principal components, demonstrating how most of the important information is retained despite the reduced dimensionality.
