@@ -49,9 +49,11 @@ Topics covered:
 
 # Logistic Regression
 
-Here we derive logistic regression from probabilistic principles using the Bernoulli/Binomial likelihood formulation. The sigmoid activation function is introduced to map linear outputs into probabilities for binary classification.
+Here we derive logistic regression from probabilistic principles using the Bernoulli/Binomial likelihood formulation. The sigmoid activation function is introduced to map linear outputs into probabilities for binary classification. We also show how the sigmoid naturally arises when the log-odds are modeled as a linear function of the features.
 
 We derive the binary cross-entropy loss function using maximum likelihood estimation and then compute the gradients using matrix calculus and the chain rule. Finally, gradient descent is implemented from scratch to optimize the parameters and learn nonlinear decision boundaries.
+
+We extend binary logistic regression to multiclass classification by modelling the log-odds of each class relative to a reference class. This leads naturally to the softmax function, which converts the class scores into a probability distribution over all classes.
 
 Topics covered:
 - Sigmoid Activation
@@ -62,8 +64,10 @@ Topics covered:
 - Decision Boundaries
 - Gradient Descent Optimization
 - Probabilistic Interpretation of Classification
-
+- Multiclass Logistic regression
+- Softmax Function
 ![Logistic Regression](./logistic_regression/logistic_boundary.gif)
+![Logistic Regression](./logistic_regression/multiclass_logistic_boundary.gif)
 
 ---
 
